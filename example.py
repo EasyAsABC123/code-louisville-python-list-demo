@@ -29,4 +29,9 @@ students = [
     }
 ]
 
-print(students)
+for student in students:
+    print("Hello " + student["fname"])
+    input("What did you work on last week?")
+    input("What are you working on this week?")
+    input("What do you need help with?")
+    print(f"Thanks so much {student['lname']}")
